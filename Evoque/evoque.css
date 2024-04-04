@@ -1,0 +1,329 @@
+html {
+    scroll-behavior: smooth;
+    background: white;
+
+    -webkit-font-smoothing: antialiased;
+}
+
+body {
+    background: #fff;
+    box-shadow: 0 0 2px rgba(0, 0, 0, 0.06);
+    color: #545454;
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-size: 16px;
+    line-height: 1.5;
+    max-width: 1520px;
+
+}
+
+.wrapper {
+    display: -webkit-flexbox;
+    display: -moz-flexbox;
+    display: -ms-flexbox;
+    width: 1520px;
+    margin: auto;
+}
+
+
+#flexevoque {
+    display: flex;
+    height: 88px;
+    background-color: white;
+    align-content: flex-start;
+    flex-wrap: nowrap;
+    position: fixed;
+    width: 1520px;
+    border-bottom: solid 2px grey;
+}
+
+#flexevoque > div {
+    margin: 20px;
+
+}
+
+.design:hover {
+    border-bottom: solid 4px black;
+}
+
+
+
+.innovation:hover {
+    border-bottom: solid 4px black;
+}
+
+.electric:hover {
+    border-bottom: solid 4px black;
+}
+
+.models:hover {
+    border-bottom: solid 4px black;
+}
+
+.finance:hover {
+    border-bottom: solid 4px black;
+}
+
+
+#return {
+    text-decoration-skip: ink;
+    position: relative;
+    top: 5px;
+    left: 380px;
+    height: 40px;
+    width: 160px;
+    background-color: white;
+    font-size: 16px;
+    padding: 0px;
+    font-weight: bold;
+    border: none;
+}
+
+a:visited {
+    color: black;
+}
+
+#flexepic {
+    display: flex;
+    height: 520px;
+    width: 1520px;
+    align-content: flex-start;
+    justify-content: flex-start;
+    flex-wrap: wrap;
+}
+
+
+#order {
+    position: relative;
+    top: 5px;
+    left: 220px;
+
+}
+
+#nav1 {
+    display: flex;
+    height: 88px;
+    width: 1520px;
+    margin-top: auto;
+    align-content: flex-start;
+    flex-wrap: wrap;
+    border-bottom: solid 2px grey;
+}
+
+#selection {
+    display: flex;
+    height: 80px;
+    width: 1520px;
+    justify-content: flex-start;
+    flex-wrap: wrap;
+    border-bottom: solid 2px grey;
+
+}
+
+#selection > div {
+    margin: 12px;
+}
+
+
+
+#exterior:hover {
+    border-bottom: solid 4px black;
+    cursor: pointer;
+}
+
+#interior:hover {
+    border-bottom: solid 4px black;
+    cursor: pointer;
+}
+
+#select {
+    display: flex;
+    height: 150px;
+    width: 1520px;
+    justify-content: flex-start;
+    flex-wrap: nowrap;
+}
+
+
+#custom_ex {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: nowrap;
+    width: 600px;
+}
+
+#custom_ex > div {
+    margin: 5px;
+}
+
+
+#custom_in {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: nowrap;
+    width: 500px;
+
+
+}
+
+#custom_in > div {
+    margin: 8px;
+}
+
+
+.inno {
+    padding-top: 10px;
+    width: 1520px;
+}
+
+.one {
+    border-radius: 15px;
+    padding: 6px;
+    cursor: pointer;
+
+
+}
+
+.one:active {
+    border: solid 2px black;
+    height: 90px;
+    width: 90px;
+
+}
+
+
+
+.two {
+    border-radius: 15px;
+    padding: 6px;
+    cursor: pointer;
+}
+
+.two:active {
+    border: solid 2px black;
+    height: 90px;
+    width: 90px;
+}
+
+.p {
+    padding-left: 0px;
+}
+
+
+#nav2 {
+    display: flex;
+    height: 400px;
+    width: 1520px;
+    margin-top: 70px;
+    align-content: flex-start;
+    justify-content: flex-start;
+    flex-wrap: wrap;
+    padding: 10px;
+
+}
+
+#nav3 {
+    display: flex;
+    height: 88px;
+    margin-top: auto;
+    margin-bottom: auto;
+    align-content: flex-start;
+    justify-content: flex-start;
+    flex-wrap: wrap;
+    border-bottom: solid 2px grey;
+}
+
+#nav4 {
+    display: flex;
+    height: 88px;
+    width: 1520px;
+    margin-top: auto;
+    margin-bottom: auto;
+    align-content: flex-start;
+    justify-content: flex-start;
+    flex-wrap: wrap;
+    border-bottom: solid 2px grey;
+}
+
+#nav5 {
+
+    display: flex;
+    height: 88px;
+    width: 1520px;
+    margin-top: auto;
+    margin-bottom: auto;
+    align-content: flex-start;
+    justify-content: flex-start;
+    flex-wrap: wrap;
+    border-bottom: solid 2px grey;
+}
+
+#flexpic3 {
+    display: flex;
+    height: 330px;
+    width: 1520px;
+    align-content: flex-start;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    margin: auto;
+
+}
+
+#BIO:hover {
+    border: solid 2px black;
+    height: 350px;
+    width: 600px;
+    transition: 2s;
+    transition-timing-function: ease-in-out;
+}
+
+#HSE:hover {
+    border: solid 2px black;
+    height: 350px;
+    width: 600px;
+    transition: 2s;
+    transition-timing-function: ease-in-out;
+}
+
+#SE:hover {
+    border: solid 2px black;
+    height: 350px;
+    width: 600px;
+    transition: 2s;
+    transition-timing-function: ease-in-out;
+}
+
+#nav6 {
+    display: flex;
+    height: 88px;
+    width: 1520px;
+    margin-top: auto;
+    margin-bottom: auto;
+    align-content: flex-start;
+    justify-content: flex-start;
+    flex-wrap: wrap;
+    border-bottom: solid 2px grey;
+}
+
+
+
+#flexfinance {
+    display: flex;
+    width: 1520px;
+    border-bottom: solid 2px grey;
+    flex-direction: row;
+    justify-content: flex-start;
+}
+
+#flexfinance > div {
+    margin-bottom: 150px;
+    width: 700px;
+    height: 750px;
+    padding: 20px;
+}
+
+#flex {
+    display: flex;
+    width: 1520px;
+    justify-content: center;
+    flex-wrap: wrap;
+}
